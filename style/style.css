@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body header{
+    background-color: black;
+}
+body article h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+}
+body > article > #introduccion > p{
+    padding-top: 50px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+body > article > #ninez > h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#ninezAbuelos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+#ninezAbuelos p{
+    padding-top: 30px ;
+    padding-left: 30px;
+    margin-right: 80px;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 35px;
+    font-size: 26px;
+}
+#ninezAbuelos img{
+    margin-left: 60px;
+    height: 700px;
+    width: 900px;
+    border-radius: 10%;
+}
+
+
+#juventud > #juventudAbuelos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#juventud > #juventudAbuelos > p, #hijos p {
+    padding-top: 90px ;
+    padding-left: 30px;
+    margin-right: 80px;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 35px;
+    font-size: 26px;
+}
+
+#juventud >h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#juventud #juventudAbuelos img {
+    height: 600px;
+    width: 600px;
+    border-radius: 10%;
+    margin-right: 25px;
+}
+
+#fotos, #hijos {
+    padding-top: 90px;
+}
+
+#fotos h2, #hijos h2{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+        font-size: 30px;
+}
+#fotos #fotosMatri {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 80px;
+}
+
+#fotosMatri div img{
+    height: 380px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+
+#momentosFT{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#momentosFT #momentos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+}
+
+#momentosFT #momentos #momentosFelices p,#momentosTristes p{
+    padding-top: 30px;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 35px;
+    font-size: 26px;
+}
+
+#momentosTristes p, #momentosTristes h2{
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+
+
